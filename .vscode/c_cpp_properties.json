@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "macos",
+            "includePath": [
+                "/Users/bowen/Source/3rd_party/libtorch/**",
+                "/Users/bowen/Source/3rd_party/opencv/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}
