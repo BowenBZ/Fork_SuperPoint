@@ -7,6 +7,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(superpoint_runner superpoint_runner.cpp)
+add_executable(superpoint_runner superpoint_runner.cpp superpoint_model.cpp)
 target_link_libraries(superpoint_runner ${TORCH_LIBRARIES} ${OpenCV_LIBS})
 set_property(TARGET superpoint_runner PROPERTY CXX_STANDARD 17)
